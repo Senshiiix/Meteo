@@ -1,0 +1,88 @@
+html {
+    background-image: url("https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fcontent.2Fuploads.2F2016.2F04.2FMETEO_FLO.2Ejpg/970x545/quality/80/crop-from/center/les-previsions-meteo-comment-ca-marche.jpeg");
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+html::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.temp {
+    font-size: medium;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+#card {
+    background-color:aqua;
+    width: 60vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 2;
+    border-radius: 40px;
+    display: block;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    font-size: 150%;
+}
+
+#city {
+    font-size: medium;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#temperature {
+    font-size: 200%;
+    font-weight: bolder;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 125%;
+    font-weight: bolder;
+    position: relative;
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+}
+
+h4 {
+    text-align: center;
+    font-size: 125%;
+    font-weight: bolder;
+    position: relative;
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+}
