@@ -12,11 +12,9 @@ for (let i = 1; i <= 6; i++) {
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition((position) => {
-            document.getElementById("city").textContent = position.coords.longitude + ' , ' + position.coords.latitude;
             getWeather(position.coords.latitude,position.coords.longitude )
           });
     } else {
-        document.getElementById("city").textContent = "La géolocalisation n'est pas supportée par ce navigateur.";
     }
 }
 
